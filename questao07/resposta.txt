@@ -1,0 +1,4 @@
+p = mat + 1; // Expressão válida, pois atribui a um ponteiro 'p' uma posição de memória (segundo elemento do vetor mat[])
+p = mat++; // Expressão inválida. Tentativa de modificação de um endereço de memória (mat = mat + 1)
+p = ++mat; // Expressão inválida. Tentativa de modificação de dois endereços de memória.
+x = (*mat)++; // Expressão válida. Operação de soma sobre um inteiro.
