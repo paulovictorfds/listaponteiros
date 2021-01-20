@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+  float aloha[10], coisas[10][5], *pf, value = 2.2;
+  int i=3;
+
+  aloha[2] = value; // Comando válido.
+  scanf("%f", &aloha); // Comando válido, porém incorreto.
+  aloha = value";  // Comando inválido. Tentativa de atribuição uma variável do tipo float a um endereço de memória.
+  printf("%f", aloha); // Comando válido, porém  incorreto. Está tentando imprimir um endereço de memória especificando formato do tipo float.
+  coisas[4][4] = aloha[3]; // Comando válido.
+  coisas[5] = aloha; // Comando inválido. Vetor coisas é bidimensional e deve ser especificado o elemento.
+  pf = value; // Comando inválido. Tentativa de atribuição uma variável do tipo float a um ponteiro.
+  pf = aloha; // Comando válido.
+  
+  return 0;
+}
+  
