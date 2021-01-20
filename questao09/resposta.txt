@@ -1,0 +1,23 @@
+Quando x for declarado como char:
+  x = FFC
+  x+1 = FFD
+  x+2 = FFE
+  x+3 = FFF
+  
+Quando x for declarado como int:
+  x = FFC
+  x+1 = FFE
+  x+2 = 1000
+  x+3 = 1002
+  
+Quando x for declarado como float:
+  x = FFC
+  x+1 = 1000
+  x+2 = 1004
+  x+3 = 1008
+  
+Quando x for declarado como float:
+  x = FFC
+  x+1 = 1004
+  x+2 = 100C
+  x+3 = 1014
