@@ -1,0 +1,41 @@
+O programa a seguir foi utilizado para testar as suposições da questão 09. As diferenças são apenas a posição de memória em que
+está armazenada a variável e a variável do tipo int ocupa 4 bytes de memória.
+
+#include <stdio.h>
+
+int main(void)
+{
+    char x[4];
+
+    printf("Quando a variavel for do tipo char:\n");
+    printf("x = %X\n", x);
+    printf("x+1 = %X\n", x+1);
+    printf("x+2 = %X\n", x+2);
+    printf("x+3 = %X\n", x+3);
+
+    int y[4];
+
+    printf("\nQuando a variavel for do tipo int:\n");
+    printf("x = %X\n", y);
+    printf("x+1 = %X\n", y+1);
+    printf("x+2 = %X\n", y+2);
+    printf("x+3 = %X\n", y+3);
+
+    float z[4];
+
+    printf("\nQuando a variavel for do tipo float:\n");
+    printf("x = %X\n", z);
+    printf("x+1 = %X\n", z+1);
+    printf("x+2 = %X\n", z+2);
+    printf("x+3 = %X\n", z+3);
+
+    double w[4];
+
+    printf("\nQuando a variavel for do tipo double:\n");
+    printf("x = %X\n", w);
+    printf("x+1 = %X\n", w+1);
+    printf("x+2 = %X\n", w+2);
+    printf("x+3 = %X\n", w+3);
+
+    return 0;
+}
