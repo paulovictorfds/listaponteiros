@@ -1,0 +1,2 @@
+O primeiro programa imprime os valores contidos nos elementos vetor vet[].
+O segundo programa imprime os endereços de memória de cada elemento do vetor vet[].
