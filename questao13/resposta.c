@@ -36,6 +36,7 @@ int main(void)
         printf("%.01f ", array[i]);
     }
 
+    // Libera a memória utilizada pelo array
     free(array);
 }
 
