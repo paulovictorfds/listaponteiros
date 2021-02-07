@@ -33,7 +33,7 @@ int main(void)
     printf("Os valores digitados em ordem crescente sao:\n");
     for (unsigned int i = 0; i < N; i++)
     {
-        printf("%.01f ", array[i]);
+        printf("%.001f ", array[i]);
     }
 
     // Libera a memória utilizada pelo array
@@ -42,5 +42,5 @@ int main(void)
 
 int compare (const void * a, const void * b)
 {
-    return ( *(int*)a - *(int*)b );
+    return ( *(float*)a - *(float*)b );
 }
