@@ -8,7 +8,7 @@ int main(void)
     unsigned int N;
     float* array;
 
-    // Obtém a dimensão do vetor
+    // Obtém a dimensão do array
     printf("Digite a dimensao do array (> 0): ");
     do
     {
